@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "godylehrfu-quantize_jd134"
+name = "godylehrfu-toolchain_failure_localization_count_trace"
 version = "0.1.0"
 description = "统计各来源片段的贡献量与占比，标出量化与稀疏化研究员·多轮工具链的失败定位上最主要的来源"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://godylehrfu.github.io"
-Repository = "https://github.com/godylehrfu/quantize_jd134"
-Issues = "https://github.com/godylehrfu/quantize_jd134/issues"
+Repository = "https://github.com/godylehrfu/toolchain_failure_localization_count_trace"
+Issues = "https://github.com/godylehrfu/toolchain_failure_localization_count_trace/issues"
 
 [project.scripts]
-quantize_jd134 = "quantize_jd134:main"
+toolchain_failure_localization_count_trace = "toolchain_failure_localization_count_trace:main"
 
 [tool.setuptools]
-py-modules = ["quantize_jd134"]
+py-modules = ["toolchain_failure_localization_count_trace"]

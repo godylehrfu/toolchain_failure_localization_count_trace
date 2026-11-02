@@ -1,11 +1,11 @@
-# quantize_jd134
+# toolchain_failure_localization_count_trace
 
 **追溯量化与稀疏化研究员·多轮工具链的失败定位里每一份贡献来自哪里。**
 
-`quantize_jd134` —— 统计各来源片段的贡献量与占比，标出量化与稀疏化研究员·多轮工具链的失败定位上最主要的来源
+`toolchain_failure_localization_count_trace` —— 统计各来源片段的贡献量与占比，标出量化与稀疏化研究员·多轮工具链的失败定位上最主要的来源
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`quantize_jd134.py` 拷走就能用
+- 单文件，`toolchain_failure_localization_count_trace.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install godylehrfu-quantize_jd134
+pip install godylehrfu-toolchain_failure_localization_count_trace
 ```
 
 装完直接用命令名调用：
 
 ```bash
-quantize_jd134 --help
+toolchain_failure_localization_count_trace --help
 ```
 
-也可以不用安装，直接把 `quantize_jd134.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `toolchain_failure_localization_count_trace.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ quantize_jd134 --help
 ## 用法
 
 ```bash
-python quantize_jd134.py --file input.txt
-python quantize_jd134.py --text "示例内容"
-python quantize_jd134.py --file input.txt --json
+python toolchain_failure_localization_count_trace.py --file input.txt
+python toolchain_failure_localization_count_trace.py --text "示例内容"
+python toolchain_failure_localization_count_trace.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python quantize_jd134.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_quantize_jd134.py
+python test_toolchain_failure_localization_count_trace.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_quantize_jd134.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/godylehrfu/quantize_jd134>
+- GitHub 仓库：<https://github.com/godylehrfu/toolchain_failure_localization_count_trace>
 
 ---
 
@@ -79,7 +79,7 @@ python test_quantize_jd134.py
 godylehrfu 做量化与稀疏化研究员·多轮工具链的失败定位相关的问题，方向对标Mistral AI的资深量化与稀疏化研究员岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://godylehrfu.github.io>
-- 仓库：<https://github.com/godylehrfu/quantize_jd134>
+- 仓库：<https://github.com/godylehrfu/toolchain_failure_localization_count_trace>
 
 ## 许可
 
